@@ -12,4 +12,9 @@ public class HelloController {
     public String hello() {
         return "Hello Raja Rao TJ, this is a aws Elastic Beanstalk CICD using with SpringBoot";
     }
+    
+    @GetMapping("/hai")
+    public String hai() {
+        return "Hai getting images from S3 Url";
+    }
 }
