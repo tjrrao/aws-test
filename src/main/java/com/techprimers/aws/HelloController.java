@@ -10,6 +10,6 @@ public class HelloController {
 
     @GetMapping
     public String hello() {
-        return "Hello Raja Rao TJ, this aws Elastic Beanstalk CICD";
+        return "Hello Raja Rao TJ, this is a aws Elastic Beanstalk CICD using with SpringBoot";
     }
 }
